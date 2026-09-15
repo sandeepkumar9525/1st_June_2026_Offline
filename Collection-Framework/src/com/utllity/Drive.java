@@ -23,12 +23,15 @@ public class Drive {
 		
 		List<String> unList = Collections.unmodifiableList(set);
 		//trying to modify it
-		//unList.add("KoL");
+//		unList.add("KoL");
 		
 		System.out.println(unList);
 		
-		Collections.reverse(unList);
-		System.out.println(unList);
+		List<String> syncList = Collections.synchronizedList(set);
+		
+		Collections.reverse(set);
+		
+		System.out.println(set);
 		
 		
 		

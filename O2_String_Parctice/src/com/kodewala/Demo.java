@@ -9,6 +9,7 @@ public class Demo {
 		String c= "java";
 		String d= a+b;
 		System.out.println(c==d);
+		System.out.println(c.equals(d));
 
 	}
 

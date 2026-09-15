@@ -21,9 +21,9 @@ public class Demo {
 			 
 			 // removing the element at index 3rd // modify the collection
 			 
-			// list.remove(3); //ConcurrentModificationException
+			 list.remove(3); //ConcurrentModificationException
 		 }
 
 	}
 
-}
+} 

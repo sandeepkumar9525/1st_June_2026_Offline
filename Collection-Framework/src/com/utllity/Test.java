@@ -25,9 +25,9 @@ public class Test {
 			 
 			 // removing the element at index 3rd // modify the collection
 			 
-			// if(element.equalsIgnoreCase("HYD")) {
-			// System.out.println("Test.main() ...Remving");
-			// }
+			 if(element.equalsIgnoreCase("HYD")) {
+			 System.out.println("Test.main() ...Remving");
+			 }
 			 
 			 list.remove(3); //ConcurrentModificationException
 		 }
