@@ -2,6 +2,7 @@ package com.kodewala;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class GropingExample {
@@ -13,8 +14,8 @@ public class GropingExample {
 		long total = list.stream().collect(Collectors.counting());
 		System.out.println(total);
 		
+		Map<Object, List<String>> output= list.stream().collect(Collectors.groupingBy(c-> c.length()));
 		
-		
-
+		System.err.println(output);
 	}
 }
